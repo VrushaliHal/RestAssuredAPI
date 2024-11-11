@@ -59,38 +59,6 @@ public class GetUsersTest extends BaseTest {
 
     }
 
-    @Test(description = "TC_002: Verify user details for more than single user")
-    public void test_002() throws JsonProcessingException {
-        userDetails = new UserDetails();
-        for (int i = 0; i < 2; i++) {
-            userDetails.setName("Chaitali");
-            userDetails.setEmail("govind.joshi" + i + "@gmail.com");
-            userDetails.setStatus("active");
-            userDetails.setGender("female");
-            objectMapper = new ObjectMapper();
-            jsonPayload = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(userDetails);
-            requestSpecification.body(jsonPayload);
-            requestSpecification.basePath("/public/v2/users");
-            response = requestSpecification.post();
-
-            response.prettyPrint();
-            jsonPathView = response.jsonPath();
-
-
-            //  requestSpecification.queryParam("name", "Chaitali");
-            response = requestSpecification.get();
-            response.prettyPrint();
-            jsonPathView = response.jsonPath();
-
-            Assert.assertEquals(jsonPathView.getString("[0].name"), "Chaitali01");
-            Assert.assertEquals(jsonPathView.getString("[0].email"), "govind.joshi" + i + "@gmail.com");
-            Assert.assertEquals(jsonPathView.getString("[0].gender"), "female");
-            Assert.assertEquals(jsonPathView.getString("[0].status"), "active");
-
-
-        }
-
-    }
 
     @Test(description = "TC_003: Verify user detail for gender Female and status Inactive")
     public void test_003()

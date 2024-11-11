@@ -7,10 +7,10 @@
     <test name="API Test Suite ">
      <classes>
             <class name="TestCases.GetUsersTest"/>
-<!--            <class name="TestCases.PostUsersTest"/>-->
-<!--            <class name="TestCases.DeleteUsersTest"/>-->
-<!--            <class name="TestCases.PutUsersTest"/>-->
-<!--            <class name="TestCases.PatchUsersTest"/>-->
+            <class name="TestCases.PostUsersTest"/>
+            <class name="TestCases.DeleteUsersTest"/>
+            <class name="TestCases.PutUsersTest"/>
+            <class name="TestCases.PatchUsersTest"/>
      </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
