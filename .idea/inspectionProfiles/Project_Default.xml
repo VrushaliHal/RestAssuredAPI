@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="RestAssuredFramework" />
+          <option value="RestAssuredFramework" />
+          <option value="RestAssuredFramework" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="log4j:log4j:1.2.17" />
+          <option value="junit:junit:4.10" />
+          <option value="commons-codec:commons-codec:1.11" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

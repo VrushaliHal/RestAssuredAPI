@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="32" passed="31" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-08T21:37:07 IST" name="REST Assured API Automation Framework" finished-at="2024-11-08T21:37:28 IST" duration-ms="20586">
+    <groups>
+    </groups>
+    <test started-at="2024-11-08T21:37:07 IST" name="API Test Suite " finished-at="2024-11-08T21:37:28 IST" duration-ms="20586">
+      <class name="TestCases.PostUsersTest">
+        <test-method signature="tc_007()[pri:0, instance:TestCases.PostUsersTest@4681c175]" started-at="2024-11-08T21:37:13 IST" name="tc_007" description="TC_007: Verify user creation WITHOUT Authentication" finished-at="2024-11-08T21:37:13 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_007 -->
+        <test-method signature="getSystemProperty()[pri:0, instance:TestCases.PostUsersTest@4681c175]" started-at="2024-11-08T21:37:13 IST" name="getSystemProperty" finished-at="2024-11-08T21:37:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSystemProperty -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PostUsersTest@4681c175]" started-at="2024-11-08T21:37:13 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PostUsersTest@4681c175]" started-at="2024-11-08T21:37:13 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="tc_008()[pri:0, instance:TestCases.PostUsersTest@4681c175]" started-at="2024-11-08T21:37:13 IST" name="tc_008" description="TC_008: Verify the response for Empty id" finished-at="2024-11-08T21:37:15 IST" duration-ms="1112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_008 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PostUsersTest@4681c175]" started-at="2024-11-08T21:37:13 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="test_009()[pri:0, instance:TestCases.PostUsersTest@4681c175]" started-at="2024-11-08T21:37:15 IST" name="test_009" description="TC_009: Verify validation response for Empty name" finished-at="2024-11-08T21:37:15 IST" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_009 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PostUsersTest@4681c175]" started-at="2024-11-08T21:37:15 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="test_010()[pri:0, instance:TestCases.PostUsersTest@4681c175]" started-at="2024-11-08T21:37:15 IST" name="test_010" description="TC_010: Verify the response for Empty email" finished-at="2024-11-08T21:37:15 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_010 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PostUsersTest@4681c175]" started-at="2024-11-08T21:37:15 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="test_011()[pri:0, instance:TestCases.PostUsersTest@4681c175]" started-at="2024-11-08T21:37:15 IST" name="test_011" description="TC_011: Verify the response for Empty gender" finished-at="2024-11-08T21:37:16 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_011 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PostUsersTest@4681c175]" started-at="2024-11-08T21:37:15 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="test_012()[pri:0, instance:TestCases.PostUsersTest@4681c175]" started-at="2024-11-08T21:37:16 IST" name="test_012" description="TC_012: Verify the response for Empty status" finished-at="2024-11-08T21:37:16 IST" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_012 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PostUsersTest@4681c175]" started-at="2024-11-08T21:37:16 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="test_013()[pri:0, instance:TestCases.PostUsersTest@4681c175]" started-at="2024-11-08T21:37:16 IST" name="test_013" description="TC_013: Verify the response schema" finished-at="2024-11-08T21:37:17 IST" duration-ms="1000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_013 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PostUsersTest@4681c175]" started-at="2024-11-08T21:37:16 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="test_014()[pri:0, instance:TestCases.PostUsersTest@4681c175]" started-at="2024-11-08T21:37:17 IST" name="test_014" description="TC_014 : Verify the Response time less than 480milisecond" finished-at="2024-11-08T21:37:18 IST" duration-ms="930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_014 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PostUsersTest@4681c175]" started-at="2024-11-08T21:37:17 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+      </class> <!-- TestCases.PostUsersTest -->
+      <class name="TestCases.GetUsersTest">
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.GetUsersTest@7ef82753]" started-at="2024-11-08T21:37:08 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:08 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="getSystemProperty()[pri:0, instance:TestCases.GetUsersTest@7ef82753]" started-at="2024-11-08T21:37:08 IST" name="getSystemProperty" finished-at="2024-11-08T21:37:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSystemProperty -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.GetUsersTest@7ef82753]" started-at="2024-11-08T21:37:08 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:08 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="test_001()[pri:0, instance:TestCases.GetUsersTest@7ef82753]" started-at="2024-11-08T21:37:08 IST" name="test_001" description="TC_001: Verify user details for single user" finished-at="2024-11-08T21:37:10 IST" duration-ms="1953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_001 -->
+        <test-method signature="test_002()[pri:0, instance:TestCases.GetUsersTest@7ef82753]" started-at="2024-11-08T21:37:10 IST" name="test_002" description="TC_002: Verify user details for more than single user" finished-at="2024-11-08T21:37:10 IST" duration-ms="611" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Chaitali01] but found [Chaitali]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Chaitali01] but found [Chaitali]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at TestCases.GetUsersTest.test_002(GetUsersTest.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_002 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.GetUsersTest@7ef82753]" started-at="2024-11-08T21:37:10 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.GetUsersTest@7ef82753]" started-at="2024-11-08T21:37:10 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:10 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="test_003()[pri:0, instance:TestCases.GetUsersTest@7ef82753]" started-at="2024-11-08T21:37:10 IST" name="test_003" description="TC_003: Verify user detail for gender Female and status Inactive" finished-at="2024-11-08T21:37:11 IST" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_003 -->
+        <test-method signature="test_004()[pri:0, instance:TestCases.GetUsersTest@7ef82753]" started-at="2024-11-08T21:37:11 IST" name="test_004" description="TC_004: Verify user Detail for gender male and status active" finished-at="2024-11-08T21:37:12 IST" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_004 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.GetUsersTest@7ef82753]" started-at="2024-11-08T21:37:11 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.GetUsersTest@7ef82753]" started-at="2024-11-08T21:37:12 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:12 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="test_005()[pri:0, instance:TestCases.GetUsersTest@7ef82753]" started-at="2024-11-08T21:37:12 IST" name="test_005" description="TC_005: Verify Response schema is valid" finished-at="2024-11-08T21:37:12 IST" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_005 -->
+        <test-method signature="test_006()[pri:0, instance:TestCases.GetUsersTest@7ef82753]" started-at="2024-11-08T21:37:12 IST" name="test_006" description="TC_006: Verify Response time is less than 200ms" finished-at="2024-11-08T21:37:13 IST" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_006 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.GetUsersTest@7ef82753]" started-at="2024-11-08T21:37:12 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+      </class> <!-- TestCases.GetUsersTest -->
+      <class name="TestCases.PutUsersTest">
+        <test-method signature="getSystemProperty()[pri:0, instance:TestCases.PutUsersTest@2767e23c]" started-at="2024-11-08T21:37:21 IST" name="getSystemProperty" finished-at="2024-11-08T21:37:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSystemProperty -->
+        <test-method signature="tc_019()[pri:0, instance:TestCases.PutUsersTest@2767e23c]" started-at="2024-11-08T21:37:21 IST" name="tc_019" description="TC_019 : verify response when name updated." finished-at="2024-11-08T21:37:22 IST" duration-ms="1131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_019 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PutUsersTest@2767e23c]" started-at="2024-11-08T21:37:21 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PutUsersTest@2767e23c]" started-at="2024-11-08T21:37:21 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="tc_020()[pri:0, instance:TestCases.PutUsersTest@2767e23c]" started-at="2024-11-08T21:37:22 IST" name="tc_020" description="TC_020 : verify response when whole request schema changed" finished-at="2024-11-08T21:37:23 IST" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_020 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PutUsersTest@2767e23c]" started-at="2024-11-08T21:37:22 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="tc_021()[pri:0, instance:TestCases.PutUsersTest@2767e23c]" started-at="2024-11-08T21:37:23 IST" name="tc_021" description="TC_021 : verify response when authentication not provided." finished-at="2024-11-08T21:37:23 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_021 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PutUsersTest@2767e23c]" started-at="2024-11-08T21:37:23 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="tc_022()[pri:0, instance:TestCases.PutUsersTest@2767e23c]" started-at="2024-11-08T21:37:23 IST" name="tc_022" description="TC_022 : verify response time less than &lt;150 when schema updated." finished-at="2024-11-08T21:37:25 IST" duration-ms="1459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_022 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PutUsersTest@2767e23c]" started-at="2024-11-08T21:37:23 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+      </class> <!-- TestCases.PutUsersTest -->
+      <class name="TestCases.PatchUsersTest">
+        <test-method signature="tc_024()[pri:0, instance:TestCases.PatchUsersTest@5386659f]" started-at="2024-11-08T21:37:25 IST" name="tc_024" description="TC_024 : verify response when two field changed gender and status." finished-at="2024-11-08T21:37:25 IST" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_024 -->
+        <test-method signature="getSystemProperty()[pri:0, instance:TestCases.PatchUsersTest@5386659f]" started-at="2024-11-08T21:37:25 IST" name="getSystemProperty" finished-at="2024-11-08T21:37:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSystemProperty -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PatchUsersTest@5386659f]" started-at="2024-11-08T21:37:25 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PatchUsersTest@5386659f]" started-at="2024-11-08T21:37:25 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="tc_025()[pri:0, instance:TestCases.PatchUsersTest@5386659f]" started-at="2024-11-08T21:37:25 IST" name="tc_025" description="TC_025 : verify response time  less than 250 millisecond for the PATH request" finished-at="2024-11-08T21:37:26 IST" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_025 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PatchUsersTest@5386659f]" started-at="2024-11-08T21:37:25 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="tc_026()[pri:0, instance:TestCases.PatchUsersTest@5386659f]" started-at="2024-11-08T21:37:26 IST" name="tc_026" description="TC_026 : Verify Response when Authentication not provided" finished-at="2024-11-08T21:37:26 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_026 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PatchUsersTest@5386659f]" started-at="2024-11-08T21:37:26 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="tc_027()[pri:0, instance:TestCases.PatchUsersTest@5386659f]" started-at="2024-11-08T21:37:26 IST" name="tc_027" description="TC_027 : verify response Schema validation" finished-at="2024-11-08T21:37:27 IST" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_027 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PatchUsersTest@5386659f]" started-at="2024-11-08T21:37:26 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.PatchUsersTest@5386659f]" started-at="2024-11-08T21:37:27 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="test_023()[pri:0, instance:TestCases.PatchUsersTest@5386659f]" started-at="2024-11-08T21:37:27 IST" name="test_023" description="TC_023 : verify response when only single field changed." finished-at="2024-11-08T21:37:28 IST" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_023 -->
+      </class> <!-- TestCases.PatchUsersTest -->
+      <class name="TestCases.DeleteUsersTest">
+        <test-method signature="tc_015()[pri:0, instance:TestCases.DeleteUsersTest@402c4085]" started-at="2024-11-08T21:37:18 IST" name="tc_015" description="TC_015 : verify response 204 No Content when user deleted." finished-at="2024-11-08T21:37:19 IST" duration-ms="913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_015 -->
+        <test-method signature="getSystemProperty()[pri:0, instance:TestCases.DeleteUsersTest@402c4085]" started-at="2024-11-08T21:37:18 IST" name="getSystemProperty" finished-at="2024-11-08T21:37:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSystemProperty -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.DeleteUsersTest@402c4085]" started-at="2024-11-08T21:37:18 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.DeleteUsersTest@402c4085]" started-at="2024-11-08T21:37:18 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="tc_016()[pri:0, instance:TestCases.DeleteUsersTest@402c4085]" started-at="2024-11-08T21:37:19 IST" name="tc_016" description="TC_016 : verify response 404,Not Found when for repeated user provided" finished-at="2024-11-08T21:37:20 IST" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_016 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.DeleteUsersTest@402c4085]" started-at="2024-11-08T21:37:19 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="tc_017()[pri:0, instance:TestCases.DeleteUsersTest@402c4085]" started-at="2024-11-08T21:37:20 IST" name="tc_017" description="TC_017 : verify response 404 Not Found when authentication not provided." finished-at="2024-11-08T21:37:20 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_017 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.DeleteUsersTest@402c4085]" started-at="2024-11-08T21:37:20 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+        <test-method signature="tc_018()[pri:0, instance:TestCases.DeleteUsersTest@402c4085]" started-at="2024-11-08T21:37:20 IST" name="tc_018" description="TC_018: verify response time less than 400 when user deleted" finished-at="2024-11-08T21:37:21 IST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_018 -->
+        <test-method is-config="true" signature="sendRequestUrl()[pri:0, instance:TestCases.DeleteUsersTest@402c4085]" started-at="2024-11-08T21:37:20 IST" name="sendRequestUrl" finished-at="2024-11-08T21:37:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequestUrl -->
+      </class> <!-- TestCases.DeleteUsersTest -->
+    </test> <!-- API Test Suite  -->
+  </suite> <!-- REST Assured API Automation Framework -->
+</testng-results>

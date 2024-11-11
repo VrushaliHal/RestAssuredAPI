@@ -1,0 +1,43 @@
+{
+    "type": "array",
+    "default": [],
+    "title": "Root Schema",
+    "items": {
+        "type": "object",
+        "title": "A Schema",
+        "required": [
+            "id",
+            "name",
+            "email",
+            "gender",
+            "status"
+        ],
+        "properties": {
+            "id": {
+                "type": "integer",
+                "title": "The id Schema"
+
+            },
+            "name": {
+                "type": "string",
+                "title": "The name Schema"
+
+            },
+            "email": {
+                "type": "string",
+                "title": "The email Schema"
+
+            },
+            "gender": {
+                "type": "string",
+                "title": "The gender Schema"
+
+            },
+            "status": {
+                "type": "string",
+                "title": "The status Schema"
+
+            }
+        }
+    }
+}

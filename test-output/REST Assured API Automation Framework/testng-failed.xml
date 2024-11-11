@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [REST Assured API Automation Framework]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="API Test Suite (failed)">
+    <classes>
+      <class name="TestCases.GetUsersTest">
+        <methods>
+          <include name="test_002"/>
+          <include name="sendRequestUrl"/>
+        </methods>
+      </class> <!-- TestCases.GetUsersTest -->
+    </classes>
+  </test> <!-- API Test Suite (failed) -->
+</suite> <!-- Failed suite [REST Assured API Automation Framework] -->
