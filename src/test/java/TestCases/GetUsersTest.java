@@ -3,11 +3,13 @@ package TestCases;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.path.json.JsonPath;
 import org.hamcrest.Matchers;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pojo_class.UserDetails;
@@ -22,11 +24,11 @@ public class GetUsersTest extends BaseTest {
 
     @BeforeMethod
     public void sendRequestUrl() {
-        requestSpecification = given();
-        requestSpecification.baseUri("https://gorest.co.in");
-        requestSpecification.basePath("/public/v2/users");
-        requestSpecification.header("Authorization", AUTH_TOKEN);
-        requestSpecification.contentType(ContentType.JSON);
+        requestSpecification = given()
+        .baseUri("https://gorest.co.in")
+        .basePath("/public/v2/users")
+        .header("Authorization", AUTH_TOKEN)
+        .contentType(ContentType.JSON);
     }
 
     @Test(description = "TC_001: Verify user details for single user")
@@ -109,11 +111,9 @@ public class GetUsersTest extends BaseTest {
     @Test(description = "TC_006: Verify Response time is less than 200ms")
     public void test_006()
     {
-        response =requestSpecification.get();
-        given().then().statusCode(200)
-                .statusLine("TTP/1.1 200 OK")
-                .time(Matchers.lessThan(200L));
 
-        Assert.assertTrue(true);
+        response = requestSpecification.get();
+        response.prettyPrint();
+        response.then().spec(responseSpecification);
     }
 }

@@ -32,9 +32,7 @@ public class PostUsersTest  extends  BaseTest{
 
 
         response =requestSpecification.post();
-        responseBodyData =response.getBody();
-        responseBodyString = responseBodyData.asString();
-        jsonPathView =new JsonPath(responseBodyString);
+        jsonPathView =response.jsonPath();
         System.out.println(jsonPathView);
 
         Assert.assertEquals(jsonPathView.getString("message"),"Authentication failed");
@@ -54,11 +52,7 @@ public class PostUsersTest  extends  BaseTest{
         requestSpecification.body(jsonPayload);
         requestSpecification.contentType(ContentType.JSON);
         response =requestSpecification.post();
-        response.prettyPrint();
-        responseBodyData =response.getBody();
-
-        responseBodyString = responseBodyData.asString();
-        jsonPathView =new JsonPath(responseBodyString);
+        jsonPathView =response.jsonPath();
         Assert.assertEquals(jsonPathView.getString("name"),"Geeta Joshi");
         Assert.assertEquals(jsonPathView.getString("email"),"geeta.joshi03@gmail.com");
         Assert.assertEquals(jsonPathView.getString("gender"),"female");
